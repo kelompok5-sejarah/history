@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinamika Politik Menuju Demokrasi Terpimpin</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome untuk Ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-landmark"></i> Sejarah Kelompok 5
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#latar-belakang">Latar Belakang</a></li>
+      <li><a href="#dekrit">Dekrit 1959</a></li>
+      <li><a href="#peta-kekuatan">Peta Kekuatan</a></li>
+      <li><a href="#dampak">Ciri & Dampak</a></li>
+      <li><a href="#kelompok">Anggota</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="badge"><i class="fa-solid fa-book-open"></i> Modul Sejarah Indonesia</span>
+      <h1>Dinamika Politik Menuju Demokrasi Terpimpin</h1>
+      <p>Menjelajahi babak krusial sejarah bangsa: dari masa kegagalan Demokrasi Liberal (1950–1959) hingga terbentuknya Demokrasi Terpimpin di bawah kepemimpinan Presiden Soekarno.</p>
+      <a href="#latar-belakang" class="btn-primary"><i class="fa-solid fa-compass"></i> Mulai Jelajahi Materi</a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- LATAR BELAKANG SECTION -->
+    <section id="latar-belakang" class="section">
+      <h2 class="section-title"><i class="fa-solid fa-hourglass-half"></i> Latar Belakang Transisi Politik</h2>
+      
+      <div class="intro-box">
+        <p>
+          Masa Demokrasi Liberal (1950–1959) ditandai oleh ketidakstabilan politik yang sangat tinggi akibat persaingan antar-partai di parlemen, pergantian kabinet yang terlampau cepat, serta ketidakmampuan Konstituante menyusun UUD baru.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <!-- 1. INSTABILITAS KABINET -->
+        <div class="card card-hover-effect">
+          <div class="card-img-wrapper">
+            <img src="kabinet.jpg" alt="Instabilitas Kabinet Parlemen">
+          </div>
+          <div class="card-body">
+            <div class="card-icon gradient-1"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <h3>Instabilitas Kabinet</h3>
+            <p>
+              Selama 9 tahun Demokrasi Liberal, Indonesia mengalami 7 kali pergantian kabinet. Rata-rata usia kabinet hanya bertahan sekitar 1 tahun, sehingga program pembangunan ekonomi nasional tidak berlanjut.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. KEGAGALAN KONSTITUANTE -->
+        <div class="card card-hover-effect">
+          <div class="card-img-wrapper">
+            <img src="konstituante.jpg" alt="Sidang Konstituante">
+          </div>
+          <div class="card-body">
+            <div class="card-icon gradient-2"><i class="fa-solid fa-file-signature"></i></div>
+            <h3>Kegagalan Konstituante</h3>
+            <p>
+              Konstituante hasil Pemilu 1955 bertugas merumuskan UUD baru. Perdebatan ideologis yang sengit antara kelompok Islam dan Pancasila memicu kebuntuan politik (deadlock) bertahun-tahun.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. PEMBERONTAKAN DAERAH -->
+        <div class="card card-hover-effect">
+          <div class="card-img-wrapper">
+            <img src="pemberontakan.jpg" alt="Pemberontakan Daerah PRRI Permesta">
+          </div>
+          <div class="card-body">
+            <div class="card-icon gradient-3"><i class="fa-solid fa-burst"></i></div>
+            <h3>Pemberontakan Daerah</h3>
+            <p>
+              Kekecewaan terhadap pemerintah pusat memicu pembentukan dewan-dewan militer daerah serta pemberontakan PRRI di Sumatra dan Permesta di Sulawesi yang mengancam disintegrasi bangsa.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. GAGASAN KONSEPSI PRESIDEN 1957 -->
+        <div class="card card-hover-effect">
+          <div class="card-img-wrapper">
+            <img src="soekarno.jpg" alt="Konsepsi Presiden Soekarno">
+          </div>
+          <div class="card-body">
+            <div class="card-icon gradient-4"><i class="fa-solid fa-user-shield"></i></div>
+            <h3>Gagasan Konsepsi Presiden 1957</h3>
+            <p>
+              Pada 21 Februari 1957, Presiden Soekarno mengusulkan konsepsi "Demokrasi Terpimpin" dan Kabinet Gotong Royong sebagai solusi atas kegagalan sistem parlementer ala Barat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE SECTION: DEKRIT PRESIDEN WITH FLIP CARDS -->
+    <section id="dekrit" class="section highlight-section">
+      <h2 class="section-title text-white"><i class="fa-solid fa-scroll"></i> Dekrit Presiden 5 Juli 1959</h2>
+      <p class="section-subtitle text-white">Klik kartu di bawah ini untuk melihat detail 3 keputusan mendasar dalam Dekrit Presiden:</p>
+
+      <div class="interactive-cards">
+        <div class="flip-card" onclick="toggleFlip(this)">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-orange">
+              <i class="fa-solid fa-ban fa-3x"></i>
+              <h3>1. Pembubaran Konstituante</h3>
+              <span class="click-hint"><i class="fa-solid fa-hand-pointer"></i> Klik untuk balik</span>
+            </div>
+            <div class="flip-card-back">
+              <h3>Pembubaran Konstituante</h3>
+              <p>Dewan Konstituante dibubarkan karena dinilai tidak mampu lagi menyelesaikan tugas utamanya menyusun UUD baru bagi Republik Indonesia.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" onclick="toggleFlip(this)">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-purple">
+              <i class="fa-solid fa-book-bookmark fa-3x"></i>
+              <h3>2. Berlakunya UUD 1945</h3>
+              <span class="click-hint"><i class="fa-solid fa-hand-pointer"></i> Klik untuk balik</span>
+            </div>
+            <div class="flip-card-back">
+              <h3>Berlakunya UUD 1945</h3>
+              <p>UUDS 1950 tidak berlaku lagi dan Indonesia secara resmi kembali menggunakan UUD 1945 sebagai dasar hukum tertinggi negara.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" onclick="toggleFlip(this)">
+          <div class="flip-card-inner">
+            <div class="flip-card-front bg-gradient-teal">
+              <i class="fa-solid fa-users-gear fa-3x"></i>
+              <h3>3. Pembentukan MPRS & DPAS</h3>
+              <span class="click-hint"><i class="fa-solid fa-hand-pointer"></i> Klik untuk balik</span>
+            </div>
+            <div class="flip-card-back">
+              <h3>Pembentukan MPRS & DPAS</h3>
+              <p>Pembentukan Majelis Permusyawaratan Rakyat Sementara (MPRS) serta Dewan Pertimbangan Agung Sementara (DPAS) dalam waktu singkat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PETA KEKUATAN POLITIK (INTERACTIVE TABS WITH IMAGES) -->
+    <section id="peta-kekuatan" class="section">
+      <h2 class="section-title"><i class="fa-solid fa-sitemap"></i> Peta Kekuatan Politik Nasional</h2>
+      <p class="section-subtitle">Struktur politik pada era ini bertumpu pada **Segitiga Kekuatan Politik**. Klik tiap pilar di bawah ini untuk penjelasannya:</p>
+
+      <!-- TAB BUTTONS -->
+      <div class="tab-buttons">
+        <button class="tab-btn active" onclick="openTab(event, 'soekarno')">
+          <i class="fa-solid fa-user-tie"></i> Presiden Soekarno
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'tni-ad')">
+          <i class="fa-solid fa-shield-halved"></i> TNI Angkatan Darat
+        </button>
+        <button class="tab-btn" onclick="openTab(event, 'pki')">
+          <i class="fa-solid fa-flag"></i> PKI (Partai Komunis Indonesia)
+        </button>
+      </div>
+
+      <!-- TAB CONTENT 1: SOEKARNO -->
+      <div id="soekarno" class="tab-content active-content">
+        <div class="tab-box border-red">
+          <div class="tab-grid">
+            <div class="tab-img">
+              <img src="soekarno.jpg" alt="Ilustrasi Pemimpin Soekarno">
+            </div>
+            <div class="tab-body">
+              <h3>Presiden Soekarno — Poros Utama & Pemegang Keseimbangan</h3>
+              <p><strong>Peran Utama:</strong> Kepala Negara & Pemerintah dengan otoritas mutlak.</p>
+              <ul>
+                <li><strong>Konsep NASAKOM:</strong> Soekarno menggagas pilar Nasakom (Nasionalisme, Agama, Komunisme) untuk menyatukan tiga ideologi besar agar tidak saling menghancurkan.</li>
+                <li><strong>Politik Imbang (Check and Balance):</strong> Soekarno menempatkan dirinya di tengah, memanfaatkan PKI untuk mengimbangi militer (TNI-AD) dan sebaliknya.</li>
+                <li><strong>Pusat Kekuasaan:</strong> Lembaga-lembaga negara (DPR-GR, MPRS, DPAS) tunduk di bawah instruksi eksekutif presiden.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB CONTENT 2: TNI AD -->
+      <div id="tni-ad" class="tab-content">
+        <div class="tab-box border-green">
+          <div class="tab-grid">
+            <div class="tab-img">
+              <img src="pemberontakan.jpg" alt="Militer TNI AD">
+            </div>
+            <div class="tab-body">
+              <h3>TNI Angkatan Darat — Kekuatan Sosial-Politik & Anti-Komunis</h3>
+              <p><strong>Peran Utama:</strong> Pengaman kedaulatan serta kekuatan politik sipil-militer.</p>
+              <ul>
+                <li><strong>Doktrin Jalan Tengah:</strong> Jenderal A.H. Nasution mencetuskan gagasan bahwa militer berhak terlibat aktif dalam urusan sosial, politik, dan pemerintahan.</li>
+                <li><strong>Penumpasan Gerakan Daerah:</strong> Keberhasilan TNI-AD menumpas DI/TII dan PRRI/Permesta memperkuat posisi tawar militer di pemerintahan.</li>
+                <li><strong>Benteng Penyeimbang PKI:</strong> TNI-AD secara konsisten menolak usulan PKI seperti pembentukan "Angkatan Kelima" (buruh/petani bersenjata).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB CONTENT 3: PKI -->
+      <div id="pki" class="tab-content">
+        <div class="tab-box border-amber">
+          <div class="tab-grid">
+            <div class="tab-img">
+              <img src="konstituante.jpg" alt="Gerakan Massa Politik">
+            </div>
+            <div class="tab-body">
+              <h3>PKI — Kekuatan Partai Massa & Propaganda</h3>
+              <p><strong>Peran Utama:</strong> Partai politik akar rumput yang memanfaatkan dukungan Soekarno.</p>
+              <ul>
+                <li><strong>Mendukung Ajaran Presiden:</strong> PKI selalu berada di garda terdepan mendukung program-program Soekarno seperti Pembebasan Irian Barat dan Konfrontasi Malaysia.</li>
+                <li><strong>Ormas Akar Rumput:</strong> Menghimpun massa besar melalui Barisan Tani Indonesia (BTI), SOBSI (buruh), Gerwani, dan Pemuda Rakyat.</li>
+                <li><strong>Isolasi Lawan Politik:</strong> Menggunakan isu "Kapitalis Birokrat" dan "Kontra-Revolusi" untuk menundukkan penentangnya.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCORDION SECTION: CIRI & PENYIMPANGAN -->
+    <section id="dampak" class="section">
+      <h2 class="section-title"><i class="fa-solid fa-list-check"></i> Ciri Utama & Penyimpangan Demokrasi Terpimpin</h2>
+      <p class="section-subtitle">Klik pada setiap baris di bawah untuk membuka detail informasi:</p>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <span><i class="fa-solid fa-crown text-amber"></i> 1. Pengangkatan Presiden Seumur Hidup</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Melalui Ketetapan MPRS No. III/MPRS/1963, Presiden Soekarno diangkat sebagai <strong>Presiden Seumur Hidup</strong>. Hal ini bertentangan dengan UUD 1945 pasal 7 yang mengatur pembatasan masa jabatan presiden.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <span><i class="fa-solid fa-building-circle-xmark text-red"></i> 2. Pembubaran DPR Hasil Pemilu 1955</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Presiden membubarkan DPR hasil Pemilu 1955 pada Maret 1960 karena DPR menolak RAPBN yang diajukan pemerintah. Presiden lalu membentuk DPR-Gotong Royong (DPR-GR) yang anggotanya ditunjuk langsung oleh Presiden.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <span><i class="fa-solid fa-ban-smoking text-orange"></i> 3. Pembredelan Pers & Pembatasan Partai Politik</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Partai Masyumi dan PSI dibubarkan oleh pemerintah pada tahun 1960. Surat kabar seperti <em>Indonesia Raya</em> dan <em>Pedoman</em> yang bersikap kritis dilarang terbit untuk menjaga hegemoni pemerintah.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header" onclick="toggleAccordion(this)">
+            <span><i class="fa-solid fa-earth-asia text-teal"></i> 4. Politik Mercusuar & Pembagian OLDEFOS/NEFOS</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-body">
+            <p>Indonesia keluar dari PBB pada 1965 dan membentuk poros Jakarta-Peking (Beijing). Pemerintah membangun proyek megah "Mercusuar" seperti Stadion GBK, Monas, dan Hotel Indonesia di tengah kondisi krisis ekonomi nasional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANGGOTA KELOMPOK SECTION -->
+    <section id="kelompok" class="section team-section">
+      <h2 class="section-title text-center"><i class="fa-solid fa-users"></i> Kelompok 5</h2>
+      <p class="section-subtitle text-center">Tim Penyusun & Pembuat Website Sejarah</p>
+
+      <div class="team-grid">
+        <div class="team-card card-glow-1">
+          <div class="team-img-wrapper">
+            <img src="azka.jpg" alt="Azka Ramadhani">
+          </div>
+          <h3>Azka Ramadhani</h3>
+          <span class="absen-badge"><i class="fa-solid fa-id-badge"></i> No. Absen: 05</span>
+        </div>
+
+        <div class="team-card card-glow-2">
+          <div class="team-img-wrapper">
+            <img src="kiki.jpg" alt="Kiki Rahmadhani">
+          </div>
+          <h3>Kiki Rahmadhani</h3>
+          <span class="absen-badge"><i class="fa-solid fa-id-badge"></i> No. Absen: 15</span>
+        </div>
+
+        <div class="team-card card-glow-3">
+          <div class="team-img-wrapper">
+            <img src="nathan.jpg" alt="Nathan Radhya Brahmantyo">
+          </div>
+          <h3>Nathan Radhya B.</h3>
+          <span class="absen-badge"><i class="fa-solid fa-id-badge"></i> No. Absen: 25</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Kelompok 5 Sejarah. Dibuat untuk Tugas Visual Studio Code.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
